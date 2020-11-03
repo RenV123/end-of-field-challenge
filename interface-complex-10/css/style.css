@@ -6,13 +6,14 @@
   position: absolute;
   top: 0;
   left: 0;
-  opacity: 0.5;
+  opacity: 1;
   z-index: 10;
   pointer-events: none;
 }
 
 :root {
   --border-color: #f3f3f3;
+  --icon-color: #7f7f7f;
 }
 
 .card {
@@ -41,11 +42,33 @@
   width: 9rem;
   height: 9rem;
   border-radius: 50%;
-  margin: 1.5rem auto;
+  margin: 1.5rem auto 1.4rem auto;
 }
 
 .card .card-body h1 {
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.06rem;
+  font-family: serif;
+  margin-bottom: 0.79rem;
+}
+
+.card .card-body p {
+  font-size: 0.695rem;
+  line-height: 1.25rem;
+  margin-bottom: 0.99rem;
+}
+
+.card .card-body .card-social-media {
+  border-width: 0.1rem;
+  border-radius: 1rem;
+  border-color: var(--border-color);
+  margin: auto 5.5rem;
+}
+
+.card .card-body .card-social-media * {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin: auto 0.24rem auto 0.24rem;
+  color: var(--icon-color);
 }
 /*# sourceMappingURL=style.css.map */
