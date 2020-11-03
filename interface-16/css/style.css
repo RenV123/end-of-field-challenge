@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
 
-  opacity: 0;
+  opacity: 0.2;
   z-index: 10;
   pointer-events: none;
 }
@@ -39,12 +39,12 @@ body {
   flex-flow: column wrap; */
 }
 
-.fas {
-  color: var(--primary-accent-color);
+.card-icon {
+  margin: 0.9rem auto 1.8rem 1.15rem;
 }
 
-.card-icon {
-  margin-left: 0.6rem;
+.card-icon img {
+  scale: 250%;
 }
 
 .card-feature h2 {
