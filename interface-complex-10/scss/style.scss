@@ -4,6 +4,7 @@
   --icon-color: #0d0d0d;
   --page-background-color: #ededed;
   --card-background-color: #fff;
+  --icon-color-hover: #fff;
 }
 
 body {
@@ -73,9 +74,22 @@ body {
         padding-bottom: 0.5rem;
         margin: auto 0.25rem;
         color: var(--icon-color);
+
+        :hover {
+          color: var(--icon-color-hover);
+        }
       }
     }
+
+    .card-social-media:hover {
+      background-color: var(--border-color);
+      box-shadow: 0.1rem 0.1rem 0.15rem var(--border-color);
+    }
   }
+}
+
+.card:hover {
+  box-shadow: 0.1rem 0.1rem 1rem #00000027;
 }
 
 @media only screen and (max-width: 1200px) {
