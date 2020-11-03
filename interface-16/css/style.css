@@ -1,17 +1,5 @@
-/* #TODO: Remove, for debug purposes only*/
-#mockup {
-  width: 1033px;
-  height: 288px;
-  background-size: 1033px 288px;
-  background-image: url('../interface.16.png');
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  opacity: 0.1;
-  z-index: 10;
-  pointer-events: none;
+:root {
+  --primary-accent-color: #0055dc;
 }
 
 .card-features-container {
@@ -30,7 +18,7 @@
 }
 
 .fas {
-  color: #0055dc;
+  color: var(--primary-accent-color);
 }
 
 .card-icon {
@@ -48,7 +36,7 @@
 }
 
 .card-feature a {
-  color: #0055dc;
+  color: var(--primary-accent-color);
   font-weight: bolder;
   font-size: 1.05rem;
 }
