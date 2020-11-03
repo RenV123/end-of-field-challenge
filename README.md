@@ -26,11 +26,11 @@ A simple interface displaying certain key selling points of a service.
 
 <img src="./mockups/interface.16.png" alt="drawing" width="600"/>
 
-[Interface 16](./interface-16/index.html)
+[Interface 16](https://renv123.github.io/end-of-field-challenge/interface-16/index.html)
 
 ## Interface 10 (Complex)
 An overview of cards displaying certain employees.
 
 <img src="./mockups/complex.10.png" alt="drawing" width="600"/>
 
-[Interface 10 (Complex)](./complex.10.png/index.html)
+[Interface 10 (Complex)](https://renv123.github.io/end-of-field-challenge/interface-complex-10/index.html)
