@@ -1,0 +1,54 @@
+#mockup {
+  width: 1229px;
+  height: 442px;
+  background-size: 100%;
+  background-image: url('../complex.10.png');
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0.5;
+  z-index: 10;
+  pointer-events: none;
+}
+
+:root {
+  --border-color: #f3f3f3;
+}
+
+.card {
+  margin: 0.9rem 0.8rem;
+  border-color: var(--border-color);
+  border-radius: 1.3rem;
+  border-width: 1px;
+  width: 17.9rem;
+  height: 25.8rem;
+
+  text-align: center;
+  font-family: sans-serif; /*TODO: find correct font*/
+
+  .card-profile-job-type {
+    margin: 0.48rem auto 0.35rem auto;
+    font-size: 0.58rem;
+    font-weight: 700;
+  }
+
+  hr {
+    color: var(--border-color);
+  }
+
+  .card-profile-pic {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin: 1.5rem auto;
+  }
+
+  .card-body {
+    h1 {
+      font-weight: 700;
+      font-size: 2rem;
+    }
+  }
+}
