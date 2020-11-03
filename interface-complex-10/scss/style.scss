@@ -73,20 +73,28 @@ body {
     p {
       font-size: 0.695rem;
       line-height: 1.25rem;
-      margin-bottom: 0.99rem;
+      margin: auto 1rem 0.99rem 1rem;
     }
 
     .card-social-media {
       border-width: 0.1rem;
-      border-radius: 1rem;
+      border-radius: 1.2rem;
       border-color: var(--border-color);
-      margin: auto 5.5rem;
-      * {
+      width: 6.6rem;
+      margin: 0 auto;
+      button {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        margin: auto 0.24rem auto 0.24rem;
+        margin: auto 0.25rem;
         color: var(--icon-color);
       }
     }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-container {
+    justify-content: flex-start;
+    flex-flow: wrap;
   }
 }
