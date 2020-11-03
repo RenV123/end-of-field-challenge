@@ -34,9 +34,6 @@ body {
   font-family: 'Roboto', sans-serif;
   width: 21.5rem;
   height: 13.5rem;
-  /* display: flex;
-  justify-content: space-between;
-  flex-flow: column wrap; */
 }
 
 .card-icon {
@@ -48,7 +45,6 @@ body {
 }
 
 .card-feature h2 {
-  font-family: 'Roboto', sans-serif;
   color: var(--title-text-color);
   font-size: 1.55rem;
   font-weight: 900;
@@ -59,7 +55,7 @@ body {
   color: var(--description-text-color);
   line-height: 1.6rem;
   font-size: 1.02rem;
-  margin: 1.6rem auto;
+  margin: 1.5rem auto;
 }
 
 .card-feature a {
