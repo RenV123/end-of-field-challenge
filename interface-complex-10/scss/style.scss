@@ -1,21 +1,6 @@
-#mockup {
-  width: 1229px;
-  height: 442px;
-  background-size: 100%;
-  background-image: url('../../mockups/complex.10.png');
-
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  opacity: 1;
-  z-index: 10;
-  pointer-events: none;
-}
-
 /*Colors */
 :root {
-  --border-color: #f3f3f3;
+  --border-color: #e4e4e4;
   --icon-color: #0d0d0d;
   --page-background-color: #ededed;
   --card-background-color: #fff;
@@ -36,7 +21,7 @@ body {
   border-radius: 1.3rem;
   border-width: 1px;
 
-  box-shadow: 0.1rem 0.1rem 0.5rem #00000009;
+  box-shadow: 0.1rem 0.1rem 1rem #00000011;
 
   width: 17.9rem;
   height: 25.8rem;
@@ -66,7 +51,7 @@ body {
   .card-body {
     h1 {
       font-weight: 900;
-      font-size: 1.05rem;
+      font-size: 1.06rem;
       font-family: 'Libre Baskerville Bold', serif;
       margin-bottom: 0.79rem;
     }
