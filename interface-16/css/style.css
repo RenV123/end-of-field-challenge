@@ -9,7 +9,7 @@
   top: 0;
   left: 0;
 
-  opacity: 0;
+  opacity: 0.1;
   z-index: 10;
   pointer-events: none;
 }
@@ -51,4 +51,14 @@
   color: #0055dc;
   font-weight: bolder;
   font-size: 1.05rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-features-container {
+    justify-content: space-between;
+    flex-flow: column wrap;
+  }
+  .card-feature {
+    margin: 1rem auto;
+  }
 }
