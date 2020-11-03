@@ -2,17 +2,18 @@
   width: 1229px;
   height: 442px;
   background-size: 100%;
-  background-image: url('../complex.10.png');
+  background-image: url('../../mockups/complex.10.png');
 
   position: absolute;
   top: 0;
   left: 0;
 
-  opacity: 0;
+  opacity: 1;
   z-index: 10;
   pointer-events: none;
 }
 
+/*Colors */
 :root {
   --border-color: #f3f3f3;
   --icon-color: #0d0d0d;
@@ -64,9 +65,9 @@ body {
 
   .card-body {
     h1 {
-      font-weight: 700;
-      font-size: 1.06rem;
-      font-family: serif;
+      font-weight: 900;
+      font-size: 1.05rem;
+      font-family: 'Libre Baskerville Bold', serif;
       margin-bottom: 0.79rem;
     }
 
