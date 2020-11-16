@@ -1,0 +1,73 @@
+#mockup {
+  width: 540px;
+  height: 164px;
+  background-image: url('../../mockups/interface.13.png');
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  opacity: 0;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.container {
+  margin: 11px 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+h2 {
+  margin-bottom: 26px;
+  font-size: 1.052rem;
+  line-height: 35px;
+}
+
+.link-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.link-handle {
+  display: flex;
+  margin-right: 18px;
+  font-size: 0.85rem;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.link-nr {
+  margin-left: 5px;
+  padding: auto 20px;
+  font-size: 0.5rem;
+  font-family: 'Rubik', sans-serif;
+  border-radius: 50%;
+  /*Center nr*/
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+.directory-nr {
+  background-color: #fef7c1;
+}
+
+.jobs-nr {
+  background-color: #9ceade;
+}
+
+.follow-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Rubik', sans-serif;
+}
+
+.follow-handle {
+  margin-right: 9px;
+  font-size: 0.8rem;
+  line-height: 24px;
+}
