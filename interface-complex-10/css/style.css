@@ -23,7 +23,7 @@ body {
   border-radius: 1.3rem;
   border-width: 1px;
   -webkit-box-shadow: 0.1rem 0.1rem 1rem #00000011;
-          box-shadow: 0.1rem 0.1rem 1rem #00000011;
+  box-shadow: 0.1rem 0.1rem 1rem #00000011;
   width: 17.9rem;
   height: 25.8rem;
   background-color: var(--card-background-color);
@@ -58,6 +58,7 @@ body {
 
 .card .card-body p {
   font-size: 0.695rem;
+  color: #666666;
   line-height: 1.25rem;
   margin: auto 1rem 0.99rem 1rem;
 }
@@ -84,12 +85,12 @@ body {
 .card .card-body .card-social-media:hover {
   background-color: var(--border-color);
   -webkit-box-shadow: 0.1rem 0.1rem 0.15rem var(--border-color);
-          box-shadow: 0.1rem 0.1rem 0.15rem var(--border-color);
+  box-shadow: 0.1rem 0.1rem 0.15rem var(--border-color);
 }
 
 .card:hover {
   -webkit-box-shadow: 0.1rem 0.1rem 1rem #00000027;
-          box-shadow: 0.1rem 0.1rem 1rem #00000027;
+  box-shadow: 0.1rem 0.1rem 1rem #00000027;
 }
 
 /* Accessibility */
